@@ -1,0 +1,23 @@
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+td, th{
+  border: 1px solid black;
+  padding: 3px 3px;
+  
+}
+caption{
+   border: 1px solid black;
+   margin-bottom: 0;
+   border-bottom: none;
+   font-weight: bold;
+   font-size: 20px;
+}
+.th-color{
+  color: red;
+}
