@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+   
+}
+.form{
+    display: grid;
+  max-width: 310px ;
+  max-height: 490px;
+
+}
+.label-check span,
+.label-check{
+    white-space: nowrap;
+}
+textarea{
+    max-width:200px ;
+    min-width: 220px;
+    max-height: 350px;
+    border-radius:10px;
+    border:1px solid #000000 
+}
+.fieldset-body{
+border:1px solid #000000 ;
+  border-radius: 12px;
+}
+.label-body{
+    display: block;
+}
+input[type="checkbox"]{
+    width: auto;
+    display: inline-block;
+}
+input{
+    display: block;
+    margin-bottom:12px;
+    width:220px ;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid black;
+
+}
+span{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 450;
+    text-shadow: 0 0 0.4px rgba(0, 0, 0, 0.8);
+}
+button{
+    display: block;
+    border: 1px solid white ;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
