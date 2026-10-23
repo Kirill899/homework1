@@ -1,0 +1,47 @@
+html{
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+.container{
+  display: flex;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 1750px;
+  border-bottom: 2px solid #e0e0e0;
+  align-items: center;
+}
+.nav{
+display: flex;
+justify-content: center;
+width: 100%;
+flex-direction: row;
+list-style: none;
+
+}
+.black{
+    display: flex;
+   width: 60px;
+   height: 60px;
+   background-color: black;
+   align-items:center;
+   
+}
+.nav-li{
+  margin: 10px;
+
+}
+.phone{
+  list-style: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+a{
+    color: black;
+}
+
+.phone a{
+    text-decoration: none;
+}
