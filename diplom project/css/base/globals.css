@@ -1,0 +1,32 @@
+.page__body{
+    min-width: 375px;
+}
+
+.container{
+    width: min(var(--container-width), 100% - var(--container-padding) * 2);
+    margin-inline: auto; 
+}
+
+.hero{
+    background-color: #ddd;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    background-color: var(--accent-color);
+    text-decoration: none;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+section{
+    margin-bottom: 150px;
+}
